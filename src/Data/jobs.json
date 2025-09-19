@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "companyImage": "https://logo.clearbit.com/komodohealth.com",
+    "role": "Data Analyst at Komodo Health 🚀",
+    "location": "Chennai, India",
+    "batch": "2025/2024",
+    "applyLink": "https://job-boards.greenhouse.io/komodohealth/jobs/8095516002?gh_src=efa519792us",
+    "description": "Komodo Health is hiring Data Analysts to join their growing analytics team."
+  },
+  {
+    "id": 2,
+    "companyImage": "https://logo.clearbit.com/google.com",
+    "role": "Software Engineer Intern at Google",
+    "location": "Bangalore, India",
+    "batch": "2024/2023",
+    "applyLink": "https://careers.google.com/jobs/results/12345/",
+    "description": "Exciting internship opportunity for students passionate about coding and innovation."
+  }
+]
