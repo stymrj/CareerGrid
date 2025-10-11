@@ -8,13 +8,14 @@ import { Route, Routes } from "react-router-dom"
 import ProtectedRoutes from "./Utils/protectedRoutes"
 import Jobs from "./Components/Jobs"
 import Products from "./Components/Products"
+import { Toaster } from "react-hot-toast"
 
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Login />}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<SignUp />}/>
         <Route path='/jobs' element={<Jobs />}/>
@@ -30,6 +31,8 @@ function App() {
 
         
       </Routes>
+
+      <Toaster position="top-center" toastOptions={{ duration: 3000 }} />
       
     </div>
   )
